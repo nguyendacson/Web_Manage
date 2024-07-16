@@ -11,8 +11,6 @@ Web Manage is a simple web application built with Laravel for managing a list of
 - [Usage Guide](#usage-guide)
 - [Running the Application](#running-the-application)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -74,7 +72,41 @@ Generate a new application key.
 
 php artisan key:generate
 
+### Step 6: Run Migrations
 
+
+Run migrations to create necessary tables in the database.
+
+php artisan migrate
+
+### Step 7: Build Front-end Assets
+
+
+Build front-end assets (CSS, JS).
+
+npm install
+npm run dev
+
+## Usage Guide
+
+1. Access the Application: Open a web browser and go to http://localhost:8000.
+2. View Student List: You will see a list of students on the main page.
+3. Add a New Student: Click on the "Add Student" button to add a new student.
+4. Edit Student: Click on the edit icon to edit a student's information.
+5. Delete Student: Click on the delete icon to remove a student from the list.
+6. View Student Details: Click on the view icon to see detailed information about a student.
+
+## Running the Application
+
+
+To start the Laravel development server, run the following command:
+
+php artisan serve
+
+
+## Contact :
+
+### email: dacson1822003@gmail.com
 
 
 
