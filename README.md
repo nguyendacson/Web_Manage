@@ -28,7 +28,7 @@ Web Manage is a web application developed to help users manage a list of student
 
 - PHP >= 8.0
 - Composer
-- MySQL or MariaDB
+- MySQL or MariaDB This project use HeidSQL 
 - Laravel >= 10.x
 - Node.js and npm (for building front-end assets)
 
