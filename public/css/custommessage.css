@@ -1,0 +1,15 @@
+#alertsucces {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 1s ease-out; 
+    overflow: hidden; 
+}
+
+#alertsucces.hide {
+    opacity: 0;
+}
+
+#alertsucces.hide-complete {
+    display: none;
+}
